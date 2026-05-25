@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://angel-huaxueyuan.netlify.app/sitemap.xml
