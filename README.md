@@ -1,22 +1,27 @@
-# Tianshi Online User Journey Review
+# 天使在线用户旅程审计
 
-This repository is the working space for reviewing and improving the user journey of:
+本仓库用于沉淀「天使在线 · 华学苑」用户旅程审计、问题证据、优化建议和后续迭代记录。
+
+当前审计范围：
 
 - https://test.tianshizaixian.com/
 - https://test.tianshizaixian.com/summer-hua/
 - https://test.tianshizaixian.com/life
 
-## Purpose
+## 仓库目标
 
-Keep user-journey findings, evidence, recommendations, and future optimization iterations in one place.
+- 从真实用户目标出发，梳理从首次访问到咨询/报名/继续了解的完整路径。
+- 记录转化断点、信任阻力、信息架构问题和移动端体验问题。
+- 按用户影响、实现成本和确定性拆分优化优先级。
+- 为后续设计、文案、前端和转化流程迭代提供可追溯依据。
 
-## Working Documents
+## 工作文档
 
-- [User journey review](docs/user-journey-review.md)
+- [用户旅程审计报告](docs/user-journey-review.md)
 
-## Review Principles
+## 审计原则
 
-- Start from the user's goal, not the page structure.
-- Evaluate whether each step reduces uncertainty, builds trust, and moves the user toward a clear next action.
-- Separate symptoms from root causes.
-- Prioritize fixes by user impact, implementation cost, and confidence.
+- 先看用户要完成什么，再看页面放了什么。
+- 每一步都要回答：是否降低不确定性、建立信任、推动下一步行动。
+- 区分表层问题和根因，不把“多加按钮”当作默认答案。
+- 优先修复会直接造成路径中断、信任下降或转化流失的问题。
