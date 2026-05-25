@@ -85,3 +85,22 @@
     });
   }
 })();
+
+// M3: sticky-cta scroll behavior (hide on scroll down, show on scroll up)
+(function(){
+  var cta=document.querySelector('.sticky-cta');
+  if(!cta)return;
+  var lastY=0,ticking=false,hidden=false;
+  function onScroll(){
+    var y=window.pageYOffset||document.documentElement.scrollTop;
+    if(Math.abs(y-lastY)<8)return;
+    if(y>lastY&&!hidden&&y>400){cta.style.transform='translateY(100%)';hidden=true}
+    if(y<lastY&&hidden){cta.style.transform='translateY(0)';hidden=false}
+    lastY=y;
+    ticking=false;
+  }
+  window.addEventListener('scroll',function(){
+    if(!ticking){requestAnimationFrame(onScroll);ticking=true}
+  },{passive:true});
+  cta.style.transition='transform .22s ease';
+})();
