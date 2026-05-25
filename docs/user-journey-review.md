@@ -1,55 +1,55 @@
-# User Journey Review
+# 用户旅程审计报告
 
-## Scope
+## 审计范围
 
-Target pages:
+目标页面：
 
 - https://test.tianshizaixian.com/
 - https://test.tianshizaixian.com/summer-hua/
 - https://test.tianshizaixian.com/life
 
-## Journey Map
+## 用户旅程地图
 
-### 1. Arrival
+### 1. 首次进入
 
-- What the user sees first:
-- What question the page answers:
-- Main uncertainty:
-- Expected next action:
+- 用户第一眼看到什么：
+- 页面回答了什么问题：
+- 用户还不确定什么：
+- 页面希望用户做什么：
 
-### 2. Exploration
+### 2. 继续了解
 
-- Navigation path:
-- Content that builds confidence:
-- Content that creates confusion:
-- Missing information:
+- 用户会沿着哪些路径继续看：
+- 哪些内容能建立信任：
+- 哪些内容会制造困惑：
+- 哪些关键信息缺失：
 
-### 3. Decision
+### 3. 做出判断
 
-- Primary conversion action:
-- Trust signals:
-- Friction points:
-- Risk/reversal messaging:
+- 主转化动作：
+- 信任信号：
+- 阻力点：
+- 风险解释与反悔机制：
 
-### 4. Completion
+### 4. 完成行动
 
-- Form or checkout flow:
-- Confirmation state:
-- Follow-up expectation:
-- Recovery path if something fails:
+- 表单、咨询或报名流程：
+- 提交后的确认状态：
+- 用户对后续联系的预期：
+- 失败或不适合时的替代路径：
 
-## Findings
+## 主要发现
 
-| Priority | Page | Finding | Evidence | Recommendation |
+| 优先级 | 页面 | 问题 | 证据 | 建议 |
 | --- | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD | TBD |
 
-## Recommendations Backlog
+## 优化建议待办
 
-| Priority | Recommendation | User Impact | Effort | Status |
+| 优先级 | 建议 | 用户影响 | 实现成本 | 状态 |
 | --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | Open |
+| TBD | TBD | TBD | TBD | 待处理 |
 
-## Evidence Log
+## 证据记录
 
-Use this section to capture dated screenshots, URLs, flow notes, and test observations.
+用于记录截图、URL、路径观察、表单测试和移动端验证结果。
