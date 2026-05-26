@@ -63,7 +63,6 @@
 <nav class="desktop-nav" aria-label="主导航">
 <a href="#situations">我家处境</a>
 <a href="#echo">生态回声</a>
-<a href="#selftest">快速自测</a>
 <a href="summer-hua/">暑假华学苑</a>
 <a href="life/">生命成长力</a>
 <a href="articles/">文章</a>
@@ -77,7 +76,6 @@
 <nav class="mobile-panel" data-mobile-panel aria-label="移动导航">
 <a href="#situations">我家处境</a>
 <a href="#echo">生态回声</a>
-<a href="#selftest">快速自测</a>
 <a href="summer-hua/">暑假华学苑</a>
 <a href="life/">生命成长力</a>
 <a href="portal/">已报名家庭入口</a>
@@ -184,85 +182,6 @@
 <h3>父母越努力，家里越紧</h3>
 <p class="muted">从"我还要做什么"退回到"家怎样能松一点"。</p>
 </a>
-</div>
-</div>
-</section>
-
-<!-- M2-4: 五题自测 — 纯前端，不需留资即可看结果 -->
-<section class="section" id="selftest" aria-label="快速自测">
-<div class="container" style="max-width:680px">
-<div class="section-head">
-<div>
-<span class="kicker">不确定适不适合？</span>
-<h2>3 分钟快速判断</h2>
-</div>
-<p>做完就看到结果，不需要留电话。觉得合适再聊。</p>
-</div>
-
-<div class="selftest-box" id="selftestBox">
-<form id="selftestForm" onsubmit="return false" novalidate>
-<!-- Q1 -->
-<fieldset class="st-q" data-q="1">
-<legend>1. 孩子的年龄段是？</legend>
-<label class="st-opt"><input type="radio" name="q1" value="a" required> 小学三年级到六年级（8-12岁）</label>
-<label class="st-opt"><input type="radio" name="q1" value="b"> 初中（12-15岁）</label>
-<label class="st-opt"><input type="radio" name="q1" value="c"> 高中（15-18岁）</label>
-<label class="st-opt"><input type="radio" name="q1" value="d"> 以上都不在</label>
-</fieldset>
-
-<!-- Q2 -->
-<fieldset class="st-q hidden" data-q="2">
-<legend>2. 孩子目前最让你担心的是什么？</legend>
-<label class="st-opt"><input type="radio" name="q2" value="a" required> 沉迷手机/游戏，一放假就完全放空</label>
-<label class="st-opt"><input type="radio" name="q2" value="b"> 什么都不缺，但就是觉得"没劲"，做什么都提不起兴趣</label>
-<label class="st-opt"><input type="radio" name="q2" value="c"> 情绪容易爆发，或者完全关起门来不沟通</label>
-<label class="st-opt"><input type="radio" name="q2" value="d"> 其实还好，主要是我想让孩子有更丰富的假期体验</label>
-</fieldset>
-
-<!-- Q3 -->
-<fieldset class="st-q hidden" data-q="3">
-<legend>3. 如果孩子要离开家 28 天，你最不放心的是什么？</legend>
-<label class="st-opt"><input type="radio" name="q3" value="a" required> 怕他照顾不好自己（吃饭/睡觉/洗衣）</label>
-<label class="st-opt"><input type="radio" name="q3" value="b"> 怕他想家受不了，中途要回来</label>
-<label class="st-opt"><input type="radio" name="q3" value="c"> 怕他跟别的孩子处不来</label>
-<label class="st-opt"><input type="radio" name="q3" value="d"> 我其实挺放心的，主要是他自己会犹豫</label>
-</fieldset>
-
-<!-- Q4 -->
-<fieldset class="st-q hidden" data-q="4">
-<legend>4. 你对"成长"的理解更接近哪一种？</legend>
-<label class="st-opt"><input type="radio" name="q4" value="a" required> 成绩上去、自律了、不玩手机了，就是成长</label>
-<label class="st-opt"><input type="radio" name="q4" value="b"> 心里有劲、眼里有光、愿意和人在一起，比成绩重要</label>
-<label class="st-opt"><input type="radio" name="q4" value="c"> 两者都需要，但不知道哪个先来</label>
-</fieldset>
-
-<!-- Q5 -->
-<fieldset class="st-q hidden" data-q="5">
-<legend>5. 如果孩子说不去，你通常会怎么做？</legend>
-<label class="st-opt"><input type="radio" name="q5" value="a" required> 说服他，告诉他去了一定有收获</label>
-<label class="st-opt"><input type="radio" name="q5" value="b"> 先了解他为什么不想去，再一起决定</label>
-<label class="st-opt"><input type="radio" name="q5" value="c"> 那就随他，不去算了</label>
-</fieldset>
-
-<div class="st-nav">
-<button type="button" class="btn ghost hidden" id="stPrev">← 上一题</button>
-<div class="st-progress" id="stProgress"><span>1</span>/5</div>
-<button type="button" class="btn primary" id="stNext">下一题 →</button>
-<button type="button" class="btn primary hidden" id="stShow">查看结果</button>
-</div>
-</form>
-
-<div class="st-result hidden" id="stResult">
-<div class="st-result-inner">
-<div class="st-result-icon" id="stResultIcon"></div>
-<h3 id="stResultTitle"></h3>
-<p id="stResultBody"></p>
-<div class="st-result-actions">
-<a class="btn primary" href="consult/?intent=fit&source=home_selftest" id="stResultCTA">和老师聊聊具体情况</a>
-<button type="button" class="btn ghost" id="stRetry">重新测一次</button>
-</div>
-</div>
-</div>
 </div>
 </div>
 </section>
@@ -424,76 +343,5 @@
 <a class="btn primary" href="consult/?intent=fit&source=sticky_home">预约咨询</a>
 </div>
 <script src="assets/app.js"></script>
-<script>
-// M2-4: 五题自测 — 纯前端，不需留资
-(function(){
-var q=1,total=5,sel={},form=document.getElementById('selftestForm'),box=document.getElementById('selftestBox'),prev=document.getElementById('stPrev'),next=document.getElementById('stNext'),show=document.getElementById('stShow'),prog=document.getElementById('stProgress'),result=document.getElementById('stResult'),qs=document.querySelectorAll('.st-q'),radios=document.querySelectorAll('.st-q input[type=radio]');
-
-function showQ(n){
- qs.forEach(function(el){el.classList.add('hidden')});
- var cur=document.querySelector('.st-q[data-q="'+n+'"]');
- if(cur)cur.classList.remove('hidden');
- prog.querySelector('span').textContent=n;
- if(n===1)prev.classList.add('hidden');else prev.classList.remove('hidden');
- if(n===total){next.classList.add('hidden');show.classList.remove('hidden')}else{next.classList.remove('hidden');show.classList.add('hidden')}
-}
-
-function compute(){
- var score=0;
- if(sel.q1&&sel.q1!=='d')score+=1;
- if(sel.q2&&sel.q2!=='d')score+=1;
- if(sel.q3&&sel.q3!=='d')score+=1;
- if(sel.q4&&sel.q4==='b')score+=2;
- if(sel.q5&&sel.q5==='b')score+=2;
-
- form.style.display='none';
- result.classList.remove('hidden');
- var icon=document.getElementById('stResultIcon'),title=document.getElementById('stResultTitle'),body=document.getElementById('stResultBody'),cta=document.getElementById('stResultCTA');
-
- if(score>=5){
- icon.textContent='🌿';title.textContent='华学苑很可能适合你的孩子';
- body.textContent='你的直觉和价值观和华学苑的方向很接近——关注完整的人，而不只是"问题"。建议和老师聊聊具体情况，看看28天是否能成为孩子一个不一样的夏天。';
- cta.textContent='和老师聊聊具体情况';
- }else if(score>=3){
- icon.textContent='🍃';title.textContent='有一些契合，值得深入了解';
- body.textContent='你对孩子的某些理解和华学苑的理念有交集，也有一些地方还需要进一步了解。不妨看看真实回声，或者和老师聊一聊，在对话中一起判断。';
- cta.textContent='先看看别人的真实变化';
- cta.href='#echo';
- }else{
- icon.textContent='🌱';title.textContent='也许可以从更轻的方式开始';
- body.textContent='华学苑不一定是最适合你家庭当前阶段的选择——这不代表任何人的问题。也许可以先从《生命成长力》读起，或者参加线上读书会，在更轻的节奏里慢慢了解。';
- cta.textContent='从《生命成长力》开始';
- cta.href='life/';
- }
-}
-
-radios.forEach(function(r){
- r.addEventListener('change',function(){
- var n=this.closest('.st-q').dataset.q;
- sel['q'+n]=this.value;
- })
-});
-
-next.addEventListener('click',function(){
- var cur=document.querySelector('.st-q[data-q="'+q+'"]:not(.hidden)');
- if(cur){
- var checked=cur.querySelector('input[type=radio]:checked');
- if(!checked){cur.style.animation='none';cur.offsetHeight;cur.style.animation='shake .3s ease';return}
- sel['q'+q]=checked.value;
- }
- if(q<total){q++;showQ(q)}else{compute()}
-});
-
-prev.addEventListener('click',function(){if(q>1){q--;showQ(q)}});
-show.addEventListener('click',function(){compute()});
-document.getElementById('stRetry').addEventListener('click',function(){
- q=1;sel={};form.style.display='';result.classList.add('hidden');
- radios.forEach(function(r){r.checked=false});
- showQ(1);
-});
-
-showQ(1);
-})();
-</script>
 </body>
 </html>
