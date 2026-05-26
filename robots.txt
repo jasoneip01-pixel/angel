@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jasoneip01-pixel.github.io/angel/sitemap.xml
