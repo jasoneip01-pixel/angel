@@ -14,7 +14,7 @@
 
 - 所有页面新增 OG + Twitter Card + Canonical URL + JSON-LD
 - 不改 CSS、不改 `<body>`、不改 Codex 负责的主视觉文件
-- base URL: `https://angel-huaxueyuan.netlify.app`
+- base URL: `https://jasoneip01-pixel.github.io/angel`
 
 ---
 
@@ -30,9 +30,9 @@
 <!-- Open Graph -->
 <meta property="og:title" content="天使在线 · 华学苑｜让成长在真实生活里被看见、被托住">
 <meta property="og:description" content="《生命成长力》帮助家庭从问题看见结构；暑假华学苑让孩子在28天真实共同生活里，向下扎根，向上生长。">
-<meta property="og:url" content="https://angel-huaxueyuan.netlify.app/">
+<meta property="og:url" content="https://jasoneip01-pixel.github.io/angel/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta property="og:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -42,10 +42,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="天使在线 · 华学苑｜让成长在真实生活里被看见、被托住">
 <meta name="twitter:description" content="《生命成长力》帮助家庭从问题看见结构；暑假华学苑让孩子在28天真实共同生活里，向下扎根，向上生长。">
-<meta name="twitter:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta name="twitter:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 
 <!-- Canonical -->
-<link rel="canonical" href="https://angel-huaxueyuan.netlify.app/">
+<link rel="canonical" href="https://jasoneip01-pixel.github.io/angel/">
 
 <!-- JSON-LD -->
 <script type="application/ld+json">
@@ -53,7 +53,7 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "天使在线 · 华学苑",
-  "url": "https://angel-huaxueyuan.netlify.app/",
+  "url": "https://jasoneip01-pixel.github.io/angel/",
   "description": "《生命成长力》帮助家庭从问题看见结构；暑假华学苑让孩子在28天真实共同生活里，向下扎根，向上生长。",
   "sameAs": []
 }
@@ -76,9 +76,9 @@
 <!-- Open Graph -->
 <meta property="og:title" content="暑假华学苑｜28天真实成长场域">
 <meta property="og:description" content="2026暑假华学苑：7月12日至8月8日，西安秦岭。面向三年级至高中孩子的28天住宿制真实成长场域。">
-<meta property="og:url" content="https://angel-huaxueyuan.netlify.app/summer-hua/">
+<meta property="og:url" content="https://jasoneip01-pixel.github.io/angel/summer-hua/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-summer.jpg">
+<meta property="og:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-summer.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -88,10 +88,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="暑假华学苑｜28天真实成长场域">
 <meta name="twitter:description" content="2026暑假华学苑：7月12日至8月8日，西安秦岭。面向三年级至高中孩子的28天住宿制真实成长场域。">
-<meta name="twitter:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-summer.jpg">
+<meta name="twitter:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-summer.jpg">
 
 <!-- Canonical -->
-<link rel="canonical" href="https://angel-huaxueyuan.netlify.app/summer-hua/">
+<link rel="canonical" href="https://jasoneip01-pixel.github.io/angel/summer-hua/">
 
 <!-- JSON-LD (Event) -->
 <script type="application/ld+json">
@@ -116,7 +116,7 @@
   "organizer": {
     "@type": "Organization",
     "name": "天使在线 · 华学苑",
-    "url": "https://angel-huaxueyuan.netlify.app/"
+    "url": "https://jasoneip01-pixel.github.io/angel/"
   }
 }
 </script>
@@ -132,9 +132,9 @@
 <!-- Open Graph -->
 <meta property="og:title" content="《生命成长力》｜从一本书回到一个家的日常">
 <meta property="og:description" content="《生命成长力》帮助家庭从问题看见结构，从真实回声、作者回应和家庭小步，回到一个家的日常。">
-<meta property="og:url" content="https://angel-huaxueyuan.netlify.app/life/">
+<meta property="og:url" content="https://jasoneip01-pixel.github.io/angel/life/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-life.jpg">
+<meta property="og:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-life.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -144,10 +144,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="《生命成长力》｜从一本书回到一个家的日常">
 <meta name="twitter:description" content="《生命成长力》帮助家庭从问题看见结构，从真实回声、作者回应和家庭小步，回到一个家的日常。">
-<meta name="twitter:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-life.jpg">
+<meta name="twitter:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-life.jpg">
 
 <!-- Canonical -->
-<link rel="canonical" href="https://angel-huaxueyuan.netlify.app/life/">
+<link rel="canonical" href="https://jasoneip01-pixel.github.io/angel/life/">
 
 <!-- JSON-LD (Book) -->
 <script type="application/ld+json">
@@ -160,7 +160,7 @@
     "@type": "Organization",
     "name": "天使在线 · 华学苑"
   },
-  "url": "https://angel-huaxueyuan.netlify.app/life/"
+  "url": "https://jasoneip01-pixel.github.io/angel/life/"
 }
 </script>
 ```
@@ -175,9 +175,9 @@
 <!-- Open Graph -->
 <meta property="og:title" content="预约一对一咨询｜天使在线 · 华学苑">
 <meta property="og:description" content="预约老师一对一咨询：了解孩子是否适合暑假华学苑，获取《生命成长力》购书、共读和家庭支持入口。">
-<meta property="og:url" content="https://angel-huaxueyuan.netlify.app/consult/">
+<meta property="og:url" content="https://jasoneip01-pixel.github.io/angel/consult/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta property="og:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -187,10 +187,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="预约一对一咨询｜天使在线 · 华学苑">
 <meta name="twitter:description" content="预约老师一对一咨询：了解孩子是否适合暑假华学苑，获取《生命成长力》购书、共读和家庭支持入口。">
-<meta name="twitter:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta name="twitter:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 
 <!-- Canonical -->
-<link rel="canonical" href="https://angel-huaxueyuan.netlify.app/consult/">
+<link rel="canonical" href="https://jasoneip01-pixel.github.io/angel/consult/">
 ```
 
 ---
@@ -203,9 +203,9 @@
 <!-- Open Graph -->
 <meta property="og:title" content="近期支持｜天使在线 · 华学苑">
 <meta property="og:description" content="近期支持入口：暑假华学苑、读者共读、家庭咨询与已报名家庭服务。">
-<meta property="og:url" content="https://angel-huaxueyuan.netlify.app/camps/">
+<meta property="og:url" content="https://jasoneip01-pixel.github.io/angel/camps/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta property="og:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -215,10 +215,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="近期支持｜天使在线 · 华学苑">
 <meta name="twitter:description" content="近期支持入口：暑假华学苑、读者共读、家庭咨询与已报名家庭服务。">
-<meta name="twitter:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta name="twitter:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 
 <!-- Canonical -->
-<link rel="canonical" href="https://angel-huaxueyuan.netlify.app/camps/">
+<link rel="canonical" href="https://jasoneip01-pixel.github.io/angel/camps/">
 ```
 
 ### articles/index.html
@@ -227,9 +227,9 @@
 <!-- Open Graph -->
 <meta property="og:title" content="文章｜天使在线 · 华学苑">
 <meta property="og:description" content="天使在线与华学苑文章入口：父母成长、青春期沟通、学校适应与真实成长故事。">
-<meta property="og:url" content="https://angel-huaxueyuan.netlify.app/articles/">
+<meta property="og:url" content="https://jasoneip01-pixel.github.io/angel/articles/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta property="og:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -239,10 +239,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="文章｜天使在线 · 华学苑">
 <meta name="twitter:description" content="天使在线与华学苑文章入口：父母成长、青春期沟通、学校适应与真实成长故事。">
-<meta name="twitter:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta name="twitter:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 
 <!-- Canonical -->
-<link rel="canonical" href="https://angel-huaxueyuan.netlify.app/articles/">
+<link rel="canonical" href="https://jasoneip01-pixel.github.io/angel/articles/">
 ```
 
 ### portal/index.html
@@ -251,9 +251,9 @@
 <!-- Open Graph -->
 <meta property="og:title" content="已报名家庭入口｜天使在线 · 华学苑">
 <meta property="og:description" content="已报名家庭入口说明：成长档案、活动记录、账号获取与咨询帮助。">
-<meta property="og:url" content="https://angel-huaxueyuan.netlify.app/portal/">
+<meta property="og:url" content="https://jasoneip01-pixel.github.io/angel/portal/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta property="og:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -263,10 +263,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="已报名家庭入口｜天使在线 · 华学苑">
 <meta name="twitter:description" content="已报名家庭入口说明：成长档案、活动记录、账号获取与咨询帮助。">
-<meta name="twitter:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta name="twitter:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 
 <!-- Canonical -->
-<link rel="canonical" href="https://angel-huaxueyuan.netlify.app/portal/">
+<link rel="canonical" href="https://jasoneip01-pixel.github.io/angel/portal/">
 ```
 
 ### 404.html
@@ -277,9 +277,9 @@
 <!-- Open Graph (minimal for 404) -->
 <meta property="og:title" content="页面未找到｜天使在线 · 华学苑">
 <meta property="og:description" content="页面未找到，请返回首页或联系天使在线 · 华学苑获取帮助。">
-<meta property="og:url" content="https://angel-huaxueyuan.netlify.app/404.html">
+<meta property="og:url" content="https://jasoneip01-pixel.github.io/angel/404.html">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta property="og:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -289,10 +289,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="页面未找到｜天使在线 · 华学苑">
 <meta name="twitter:description" content="页面未找到，请返回首页或联系天使在线 · 华学苑获取帮助。">
-<meta name="twitter:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta name="twitter:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 
 <!-- Canonical (point to home, this is a 404) -->
-<link rel="canonical" href="https://angel-huaxueyuan.netlify.app/">
+<link rel="canonical" href="https://jasoneip01-pixel.github.io/angel/">
 ```
 
 ---

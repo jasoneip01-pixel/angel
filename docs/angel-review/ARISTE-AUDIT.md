@@ -1,7 +1,7 @@
 # Ariste 独立审计报告：天使在线 · 华学苑
 
 **审计日期**：2026-05-25  
-**审计范围**：源码 (jasoneip01-pixel/angel main) + 线上部署 (angel-huaxueyuan.netlify.app)  
+**审计范围**：源码 (jasoneip01-pixel/angel main) + 线上部署 (jasoneip01-pixel.github.io/angel)  
 **审计性质**：独立评估（非Codex协同）  
 **方法论**：第一性原理拆解 → 五闸门验证 → 分层评级
 
@@ -39,8 +39,8 @@
 | 静态站点 | 🟢 | 纯HTML/CSS/JS，无构建步骤，选择正确 |
 | 单一CSS文件 | 🟢 | 约700行，变量系统完整，无需CSS框架 |
 | 单一JS文件 | 🟢 | 约70行，纯DOM操作，零依赖 |
-| Netlify部署 | 🟢 | 配置清晰，重定向/缓存头/安全头完整 |
-| 表单处理 | 🟡 | 依赖Netlify Forms，本地测试有兜底，但无服务端验证 |
+| GitHub Pages部署 | 🟢 | 纯静态发布，根目录发布路径清晰 |
+| 表单处理 | 🟡 | 静态站不设服务端收集，前端整理咨询信息后走微信/电话 |
 
 ### 2.2 性能
 
@@ -180,7 +180,7 @@ CSS中出现了至少7种字重值：`920, 880, 850, 820, 780, 760, 720`。font-
 
 | 旧站问题 | 新站修复状态 |
 |------|:--:|
-| /summer-hua/apply 404 | ✅ netlify.toml 301重定向到/consult |
+| /summer-hua/apply 404 | ✅ 静态跳转页指向 /consult |
 | 六张处境卡空链接href="#" | ✅ 已修复为life/#situations等 |
 | 导航#voices与实际#echo不一致 | ✅ 已统一为#echo |
 | /contact → /consult | ✅ 301重定向 |

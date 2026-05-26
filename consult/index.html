@@ -6,12 +6,12 @@
     <title>预约一对一咨询｜天使在线 · 华学苑</title>
     <meta name="description" content="预约老师一对一咨询：了解孩子是否适合暑假华学苑，获取《生命成长力》购书、共读和家庭支持入口。">
 <!-- SEO / social sharing -->
-<link rel="canonical" href="https://angel-huaxueyuan.netlify.app/consult/">
+<link rel="canonical" href="https://jasoneip01-pixel.github.io/angel/consult/">
 <meta property="og:title" content="预约一对一咨询｜天使在线 · 华学苑">
 <meta property="og:description" content="预约老师一对一咨询：了解孩子是否适合暑假华学苑，获取《生命成长力》购书、共读和家庭支持入口。">
-<meta property="og:url" content="https://angel-huaxueyuan.netlify.app/consult/">
+<meta property="og:url" content="https://jasoneip01-pixel.github.io/angel/consult/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta property="og:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -19,24 +19,24 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="预约一对一咨询｜天使在线 · 华学苑">
 <meta name="twitter:description" content="预约老师一对一咨询：了解孩子是否适合暑假华学苑，获取《生命成长力》购书、共读和家庭支持入口。">
-<meta name="twitter:image" content="https://angel-huaxueyuan.netlify.app/assets/images/og-home.jpg">
+<meta name="twitter:image" content="https://jasoneip01-pixel.github.io/angel/assets/images/og-home.jpg">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   "name": "预约一对一咨询｜天使在线 · 华学苑",
   "description": "预约老师一对一咨询：了解孩子是否适合暑假华学苑，获取《生命成长力》购书、共读和家庭支持入口。",
-  "url": "https://angel-huaxueyuan.netlify.app/consult/",
+  "url": "https://jasoneip01-pixel.github.io/angel/consult/",
   "inLanguage": "zh-CN",
   "isPartOf": {
     "@type": "WebSite",
     "name": "天使在线 · 华学苑",
-    "url": "https://angel-huaxueyuan.netlify.app/"
+    "url": "https://jasoneip01-pixel.github.io/angel/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "天使在线 · 华学苑",
-    "url": "https://angel-huaxueyuan.netlify.app/"
+    "url": "https://jasoneip01-pixel.github.io/angel/"
   }
 }
 </script>
@@ -72,7 +72,7 @@
     </header>
 
     <main id="main">
-      <section class="page-hero polished" style="--hero-image: url('/assets/images/article-001.jpg')">
+      <section class="page-hero polished" style="--hero-image: url('../assets/images/article-001.jpg')">
         <div class="container hero-grid">
           <div>
             <span class="eyebrow">预约老师一对一咨询</span>
@@ -129,11 +129,9 @@
               </ul>
             </div>
           </div>
-          <form class="card" name="consultation" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-consult-form>
-            <input type="hidden" name="form-name" value="consultation">
+          <form class="card" name="consultation" data-consult-form>
             <input type="hidden" name="subject" value="天使在线 · 华学苑咨询">
             <input type="hidden" name="source" value="">
-            <p class="honeypot"><label>不要填写这一项 <input name="bot-field"></label></p>
 
             <div class="form-grid">
               <div class="form-field">
@@ -175,11 +173,12 @@
               </div>
             </div>
             <div class="actions">
-              <button class="btn primary" type="submit">提交咨询</button>
+              <button class="btn primary" type="submit">整理并复制给老师</button>
               <a class="btn light" href="tel:15829900194">电话联系</a>
             </div>
-            <p class="form-note">提交后，老师会根据你填写的信息联系你。若 24 小时内没有回复，可以直接添加微信或电话联系。</p>
-            <div class="success-message" data-success-message>已收到。若 24 小时内没有回复，请直接添加微信 tianshizaixian68 或拨打 15829900194。</div>
+            <p class="form-note">填写后会生成一段咨询信息，可直接粘贴给微信 tianshizaixian68；也可以拨打 15829900194。</p>
+            <div class="success-message" data-success-message>咨询信息已整理。请粘贴给微信 tianshizaixian68，或拨打 15829900194。</div>
+            <textarea class="message-output" data-message-output readonly aria-label="整理后的咨询信息"></textarea>
           </form>
         </div>
       </section>

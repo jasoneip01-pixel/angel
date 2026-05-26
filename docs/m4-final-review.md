@@ -1,7 +1,7 @@
 # M4 Final Review — Angel Online 终审包
 
 > 生成时间: 2026-05-26 03:20 UTC  
-> 生产站: https://angel-huaxueyuan.netlify.app  
+> 生产站: https://jasoneip01-pixel.github.io/angel  
 > 源码: https://github.com/jasoneip01-pixel/angel  
 > 终审 commit: `56dc39a`
 
@@ -74,7 +74,7 @@
 | CSS | 1 | 24KB (204 行) |
 | JS | 1 | 4KB (106 行) |
 | 图片 | 9 | ~1.3MB |
-| 配置 | 3 | netlify.toml / sitemap.xml / robots.txt |
+| 配置 | 3 | GitHub Pages / sitemap.xml / robots.txt |
 
 ## 剩余外部依赖
 
