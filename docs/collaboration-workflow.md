@@ -4,7 +4,7 @@
 
 ## 总原则
 
-- `main` 只保留可部署状态，Netlify 生产站点连接 `main`。
+- `main` 只保留可部署状态，GitHub Pages 从 `main` 根目录发布生产站。
 - 大改动先走分支和 PR；确认后再合并到 `main`。
 - 所有任务必须有对应 Issue；没有 Issue 的代码变更默认不进入主线。
 - 任何人不得回滚对方已提交的工作。发现冲突时，先在相关 Issue 留言说明。
@@ -14,7 +14,7 @@
 
 | 角色 | 主责任 | 不应主动修改 |
 | --- | --- | --- |
-| Codex | 总体协调、主视觉重构、核心页面实现、image2 资产落地、Netlify 部署 | Ariste 的审计报告原文 |
+| Codex | 总体协调、主视觉重构、核心页面实现、image2 资产落地、GitHub Pages 部署 | Ariste 的审计报告原文 |
 | Ariste | 独立审计、竞品调研、SEO/OG/结构化数据、QA 巡检、文档沉淀 | `assets/styles.css`、`index.html`、`summer-hua/index.html`、`life/index.html` 的 P0 主视觉实现 |
 
 ## 文件 Ownership
@@ -63,7 +63,7 @@
 1. Codex 完成首页、夏令营页、生命成长页的视觉重构。
 2. Codex 使用 image2 生成并落地关键视觉资产。
 3. Ariste 并行做 SEO/QA/文档，不改主视觉核心文件。
-4. Codex 部署 Netlify preview 或生产前检查。
+4. Codex 部署 GitHub Pages 并做生产前检查。
 5. Ariste 做部署后审计，所有问题回到 GitHub Issue。
 
 ## 冲突处理

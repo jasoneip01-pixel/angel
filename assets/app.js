@@ -51,28 +51,33 @@
 
   const form = document.querySelector("[data-consult-form]");
   const success = document.querySelector("[data-success-message]");
+  const output = document.querySelector("[data-message-output]");
   if (form) {
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
       const formData = new FormData(form);
-      formData.set("form-name", form.getAttribute("name") || "consultation");
-      const encoded = new URLSearchParams(formData).toString();
-      const local = /^(localhost|127\.0\.0\.1|0\.0\.0\.0)$/i.test(
-        window.location.hostname
-      );
+      const lines = [
+        "天使在线 · 华学苑咨询",
+        "",
+        "家长称呼：" + (formData.get("parentName") || ""),
+        "孩子年级 / 年龄：" + (formData.get("childGrade") || ""),
+        "手机号：" + (formData.get("phone") || ""),
+        "微信号：" + (formData.get("wechat") || ""),
+        "想了解：" + (formData.get("intent") || ""),
+        "当前问题：" + (formData.get("concern") || ""),
+        "来源：" + (formData.get("source") || source),
+      ];
+      const message = lines.join("\n");
 
-      if (!local && window.location.protocol !== "file:") {
-        try {
-          await fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encoded,
-          });
-        } catch (error) {
-          // Keep the page usable even when the static host is not Netlify.
-        }
-      } else {
-        localStorage.setItem("angel-consultation-draft", encoded);
+      localStorage.setItem("angel-consultation-draft", message);
+      if (output) {
+        output.value = message;
+        output.classList.add("show");
+      }
+      try {
+        await navigator.clipboard.writeText(message);
+      } catch (error) {
+        if (output) output.focus();
       }
 
       form.reset();
