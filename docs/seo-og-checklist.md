@@ -3,6 +3,13 @@
 > Owner: Ariste | Issue #3 | 版本 v1.0
 > 本文件定义各页面 `<head>` 需新增的 meta 标签和结构化数据，不含主体布局修改。
 
+## 2026-05-26 执行状态
+
+- 已在 10 个 HTML 入口补齐 description、canonical、Open Graph、Twitter Card 与 JSON-LD。
+- 已新增 `robots.txt` 与 `sitemap.xml`，站点地图覆盖首页、暑假华学苑、生命成长力、咨询、营地、文章、家庭入口。
+- 已产出并接入 3 张 1200×630 OG 图片：`og-home.jpg`、`og-summer.jpg`、`og-life.jpg`。
+- `contact/` 与 `summer-hua/apply/` 为兼容入口，canonical 统一指向实际咨询入口 `/consult/`；`404.html` canonical 指向首页。
+
 ## 全局规则
 
 - 所有页面新增 OG + Twitter Card + Canonical URL + JSON-LD
@@ -290,7 +297,7 @@
 
 ---
 
-## OG 图片需求（需 Codex 产出）
+## OG 图片资产
 
 | 文件 | 用途 | 尺寸 | 建议内容 |
 |------|------|------|------|
@@ -298,16 +305,16 @@
 | `assets/images/og-summer.jpg` | 夏令营页分享 | 1200×630 | 营地场景/孩子背影+营期信息 |
 | `assets/images/og-life.jpg` | 生命成长页分享 | 1200×630 | 书籍/书桌/温暖光 |
 
-在 OG 图片产出前，先用 `og-home.jpg` 作全局 fallback。
+三张图片已产出并用于对应页面；非核心页继续使用 `og-home.jpg` 作通用分享图。
 
 ---
 
 ## 实施顺序
 
 1. ✅ 本文档作为 SEO 规范交付
-2. ⬜ Codex 产出 OG 图片 → Ariste 验证图片可访问
-3. ⬜ Ariste 批量写入 `<head>` 标签到 8 个 HTML 文件
-4. ⬜ Ariste 提交 PR #3 关联，附带 diff
+2. ✅ Codex 产出 OG 图片 → Ariste 验证图片可访问
+3. ✅ Ariste 批量写入 `<head>` 标签到 10 个 HTML 文件
+4. ⬜ 提交 PR 关联 Issue #3，附带 diff
 5. ⬜ 部署后验证：`curl` + 微信分享预览 + Twitter Card Validator
 
 ## 对标参考
