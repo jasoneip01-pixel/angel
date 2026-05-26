@@ -26,7 +26,7 @@
 | 四色落位(green/r/paper/gold) | ✅ | `--g #284c3d` / `--r #b74332` / `--p #fffdf8` / `--au #c4a35a` |
 | 字重收敛 3 层(900/700/400) | ✅ | `--fwh` / `--fws` / `--fwb` |
 | 字体栈(Serif 标题 + Sans 正文) | ✅ | `--fh` Noto Serif SC / `--fb` Noto Sans SC |
-| Hero 不含人物(CSS 渐变山水) | ✅ | `hero-qinling` 多层 gradient |
+| Hero 主视觉资产落地 | ✅ | 首页/夏令营/生命成长页已接入独立首屏图，CSS 渐变作为遮罩与兜底 |
 | CSS: 204 行, 24KB, 变量无孤立 | ✅ | 24 令牌全在 `:root` |
 | CTA 收敛为 1 主+1 次 | ✅ | |
 
